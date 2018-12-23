@@ -1,0 +1,10 @@
+<view class="container">
+<image class="avatar" src="/image/oops.png" />
+<view class="a">
+<view>小火车情侣甜蜜空间，在这里，你不仅可以学会如何哄男/女朋友高兴，用或热烈或委婉的语句表达出你的爱意，还可以在表白时献上一首专属你们的最美的情歌。</view>
+<view>后续更有未知功能等你探索……</view>
+</view>
+<view catchtap="onTapJumpDay" class="button">
+    <text class="button-container">开启浪漫之旅</text>
+ </view>
+</view>

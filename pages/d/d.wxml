@@ -1,0 +1,8 @@
+<view class='main'>
+<block wx:for="{{list}}">
+<view >{{list}}</view>
+</block>
+<view catchtap="onTapJumpWords" class="button">
+<text class="button-container">返回情话</text>
+</view>
+</view>

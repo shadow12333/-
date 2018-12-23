@@ -1,0 +1,37 @@
+/* pages/post/post.wxss */
+swiper{
+  width: 100%;
+  height: 800rpx;
+}
+swiper image{
+  width: 100%;
+  height: 800rpx;
+}
+page{
+  background-color: #80e1f3;
+}
+.containerPicture{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.buttonTip{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonTip-container{
+  margin-top: 60rpx;
+  border: 1px solid #ffffff;
+  width:370rpx;
+  height:85rpx;
+  border-radius: 10px;
+  text-align: center;
+}
+.buttonTip-text{
+  margin-top: 150rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #ffffff;
+}

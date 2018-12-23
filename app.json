@@ -1,0 +1,50 @@
+{
+"pages":[ 
+  "pages/welcome/welcome",
+    "pages/about/about",
+    "pages/words/words",
+    "pages/e/e",
+    "pages/d/d",
+    "pages/a/a",
+    "pages/c/c"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#FF6699",
+    "navigationBarTitleText":"告白小火车",
+    "enablePullDownRefresh": true
+  },
+    "tabBar": {
+      "borderStyle": "white",
+      "selectedColor": "#4A6141",
+      "color": "#333",
+      "backgroundColor": "#9e9e9b",
+      "position": "bottom",
+      "list": [
+         {
+          "pagePath": "pages/welcome/welcome",
+          "text": "首页",
+          "iconPath": "image/icon/welcome.png",
+          "selectedIconPath": "/image/icon/welcomea.png"
+        },
+
+        {
+          "pagePath": "pages/words/words",
+          "text": "情话",
+          "iconPath": "image/icon/words.png",
+          "selectedIconPath": "/image/icon/wordsa.png"
+        },
+        {
+          "pagePath": "pages/e/e",
+          "text": "情歌",
+          "iconPath": "image/icon/music.png",
+          "selectedIconPath": "image/icon/musica.png"
+        }
+      ]
+    },
+    "netWorkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+    }
+}

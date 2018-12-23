@@ -1,0 +1,24 @@
+<view class="containerPicture">
+  <swiper class="turn1" indicator-dots="true"autoplay="true"interval="5000">
+    <swiper-item>
+      <image src="http://r.photo.store.qq.com/psb?/V12WJF1R4JyqOk/zUgvBvClfxcXIhoHhNb5QrCF8UAt73kHvxvAPd3lJGU!/r/dFQBAAAAAAAA"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://r.photo.store.qq.com/psb?/V12WJF1R4JyqOk/mOI*.Yq3esekql9PTDVd2GZzuB1LwOCQ3k2sebOmRWw!/r/dLYAAAAAAAAA"/>      
+    </swiper-item>    
+    <swiper-item>
+      <image src="http://r.photo.store.qq.com/psb?/V12WJF1R4JyqOk/PPRi7BZMn7wgHYBJaWK7JONKX1RYyiwyc1elJ5.o0JE!/r/dLgAAAAAAAAA"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://r.photo.store.qq.com/psb?/V12WJF1R4JyqOk/T1Oq1LRy1Mf.5IkPzi1nKAOugXz5oBhGuwFiyOhlFco!/r/dFMBAAAAAAAA"/>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="buttonTip">
+  <view class="buttonTip-container">
+    <text class="buttonTip-text">关于我们</text>
+  </view>
+<view catchtap="onTapJumpDay" class="buttonTip-container">
+    <text class="buttonTip-text">返回首页</text>
+ </view>
+</view>
